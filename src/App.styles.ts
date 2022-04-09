@@ -48,7 +48,7 @@ export const Wrapper = styled.div`
     -moz-backface-clip: text;
     -moz-text-fill-color: transparent;
     filter: drop-shadow(2px 2px #0085a3);
-    font-size: 70px;
+    font-size: 3.2rem;
     font-weight: 400;
     text-align: center;
     margin: 20px;
@@ -72,6 +72,10 @@ export const Wrapper = styled.div`
 
   @media (min-width: 720px) {
     margin-top: 10vh;
+
+    h1 {
+      font-size: 5rem;
+    }
 
     .score {
       font-size: 3.5rem;
